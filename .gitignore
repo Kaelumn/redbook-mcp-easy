@@ -1,0 +1,59 @@
+# GitHub publish policy
+# Only publish README.md and public product assets such as images and videos.
+# Internal Feishu docs, operation manuals, drafts, notes, and local project files
+# must not be committed to the public repository.
+
+# Ignore everything by default.
+*
+
+# Keep repository metadata files.
+!.gitignore
+!README.md
+!LICENSE
+
+# Keep public asset directories.
+!assets/
+!assets/**/
+
+# Public images.
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.webp
+!assets/**/*.gif
+!assets/**/*.svg
+
+# Public videos.
+!assets/**/*.mp4
+!assets/**/*.mov
+!assets/**/*.webm
+
+# Public downloadable packages, if you decide to publish them.
+!assets/**/*.exe
+!assets/**/*.zip
+!assets/**/*.7z
+!assets/**/*.rar
+
+# Never publish internal documents.
+assets/README.md
+feishu-product-promotion.md
+operation-manual.md
+pricing-and-service.md
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# Never publish local editor or system files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Never publish temporary files.
+*.tmp
+*.temp
+*.log
