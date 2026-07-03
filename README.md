@@ -4,6 +4,8 @@ Redbook MCP Easy 是一个面向小红书运营场景的 Windows 桌面软件。
 
 > 关键词：安装即用、本地运行、账号矩阵、MCP、AI 自动化、小红书运营。
 
+![Redbook MCP Easy 软件首页](assets/screenshots/software-home.png)
+
 ## 为什么选择 Redbook MCP Easy？
 
 - **安装即用**：下载 Windows 安装包，按提示安装即可使用，不需要懂代码，使用简单。
